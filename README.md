@@ -1,1 +1,3 @@
-# Doctor_appointment
+### Prediction of patients' show up for appointment with logisitic regression model
+
+Around 20% patients never show up in their scheduled doctor appointment. We are trying to anlyze factors that affect patients' shown up for doctor appointment and build a model to predict their shown up. After explanatory analysis of the data, we used decision tree to determine the important factors contribute to patients shown up. Then logistic regression was selected for model building and cross validation was used to determine the number of variables to be used in the model. An error rate of less than 0.2 was achieved with our final model. 
